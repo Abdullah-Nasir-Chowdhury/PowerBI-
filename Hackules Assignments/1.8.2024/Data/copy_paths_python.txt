@@ -1,0 +1,20 @@
+python example script:
+
+import pandas as pd
+
+path = "C:/Users/HP/Desktop/PowerBI Projects/Hackules Assignments/1.8.2024/Data/country wise export for the month of July to November 2023 24.xlsx"
+sheet = "New Country Summary"
+
+data = pd.read_excel(path, sheet_name=sheet)
+data
+
+
+----------------
+file paths:
+1. "C:/Users/HP/Desktop/PowerBI Projects/Hackules Assignments/1.8.2024/Data/country wise export for the month of July to November 2023 24.xlsx"
+
+2. "C:/Users/HP/Desktop/PowerBI Projects/Hackules Assignments/1.8.2024/Data/details export for the month of july to november 2023 24.xlsx"
+
+3. "C:/Users/HP/Desktop/PowerBI Projects/Hackules Assignments/1.8.2024/Data/product wise export for the month of july to november 2023 24.xlsx"
+
+4. "C:/Users/HP/Desktop/PowerBI Projects/Hackules Assignments/1.8.2024/Data/region wise export for the month of july to november 2023 24.xlsx"
